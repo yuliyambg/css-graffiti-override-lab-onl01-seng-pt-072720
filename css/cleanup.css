@@ -1,33 +1,40 @@
 /* write your override styles here */
-#wall .tag-1 { 
+/* Tag 1 -> 10 */
+#wall .tag-1 { /* 110 */
   display: none;
 }
 
-
-body #wall #tag-2 {
+/* Tag 2 -> 200 */
+body #wall #tag-2 { /* 201 */
   display: none;
 }
 
-body #wall #tag-3.slick,.wicked{
+/* Tag 3 -> 211 */
+
+div#wall div#tag-3.slick, .wicked{ /*222*/
   display: none;
 }
 
-#wall .parent #tag-4 {
+/* Tag 4 -> 200 */
+
+#wall .parent #tag-4 { /* 210 */
   display: none;
 }
 
+/* Tag 5 -> 221 */
 
-
-#wall div.parent #tag-5.slick {
+div#wall div.parent div#tag-5.slick { /*223*/
   display: none;
 }
 
+/* Tag 6 -> 224 */
 
-body #wall div.parent div:last-child #tag-6 {
+body div#wall div.parent div:last-child div#tag-6 { /*225*/
   display: none;
 }
 
+/* Tag 7 -> 224 */
 
-body #wall div.parent div > #tag-7.slick {
+body div#wall div.parent div > div#tag-7.slick { /*225*/
   display: none;
 }
